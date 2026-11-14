@@ -1,0 +1,30 @@
+{
+  "seed": 42,
+  "test_size": 0.2,
+  "n_permutations": 16,
+  "threshold": 0.05,
+  "k_neighbors": 5,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1",
+  "sklearn": "1.9.1",
+  "xgboost": "3.4.1",
+  "sources": [
+    {
+      "file": "german_credit.csv",
+      "url": "https://raw.githubusercontent.com/lin1zhu0216/FairSHAP/d070e24d7295d31444f64d84f932c5ece5e3456a/dataset/german_credit/german_credit.csv",
+      "sha256": "b94f7dee4366fd0e64fc035c37965a57da12701e67609cdc5fcfb074d9f0a293"
+    },
+    {
+      "file": "compas.csv",
+      "url": "https://raw.githubusercontent.com/lin1zhu0216/FairSHAP/d070e24d7295d31444f64d84f932c5ece5e3456a/dataset/compas/compas-scores-two-years.csv",
+      "sha256": "d180e410066da845eceb452417fbf8b119633f05526bcb29ef2c5b546d8946c5"
+    },
+    {
+      "file": "adult.data",
+      "url": "https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data",
+      "sha256": "5b00264637dbfec36bdeaab5676b0b309ff9eb788d63554ca0a249491c86603d"
+    }
+  ],
+  "upstream_commit": "d070e24d7295d31444f64d84f932c5ece5e3456a"
+}
